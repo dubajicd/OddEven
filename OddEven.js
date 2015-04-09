@@ -4,6 +4,6 @@
  * @param selector
  */
 function oddEven(selector){
-    jQuery("selector:odd").addClass("odd");
-    jQuery("selector:even").addClass("even");
+    jQuery(selector).filter(":odd").addClass('odd');
+    jQuery(selector).filter(":even").addClass('even');
 }
