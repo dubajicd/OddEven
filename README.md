@@ -4,6 +4,7 @@ Adding odd and eveb classes to any repeatable element for nonCSS3
 How To:
 
 HTML:
+<code>
 <div id="mainid">
     <div class="someclass">
         <div class="item">
@@ -26,7 +27,7 @@ HTML:
         </div>
     </div>
 </div>
-
+</code>
 JS Call:
 
 oddEven(jQuery('#mainid .item'));
